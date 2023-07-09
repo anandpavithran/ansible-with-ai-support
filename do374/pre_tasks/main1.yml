@@ -1,0 +1,9 @@
+---
+- name: Demo
+  hosts: localhost
+  tasks:
+    - name: Install prerequisite packages
+      ansible.builtin.yum:
+        name: ansible-lint
+        state: present
+...
