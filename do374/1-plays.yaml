@@ -1,1 +1,6 @@
-
+---
+- name: Demo
+  hosts: all
+  tasks:
+  
+...
